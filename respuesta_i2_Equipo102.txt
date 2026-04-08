@@ -1,8 +1,20 @@
 Gamma:
 
-A)
+A)Para actualizar mi fork al estado del repositorio original, debo realizar los siguientes pasos en la terminal:
+
+Agregar el repositorio original como un nuevo remoto:
+git remote add upstream
+
+Descargar e integrar los cambios del repositorio original a mi entorno local:
+git pull upstream master
+
+Subir los cambios actualizados a mi propio repositorio (fork) en GitHub:
+git push origin master
 
 B)
+
+Sí, es posible. ALFA no está obligado a sincronizarse solo con el repositorio original;
+puede conectarse directamente con el fork de GAMMA.
 
 Beta: 
 
